@@ -11,7 +11,7 @@ class Ship
     @@ships << self
   end
 
-  ef self.all
+  def self.all
     @@ships
   end
 
