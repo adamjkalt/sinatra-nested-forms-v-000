@@ -11,11 +11,12 @@ class Ship
     @@ships << self
   end
 
-  def self.all
-  @@all
+  ef self.all
+    @@ships
   end
 
-def self.clear
-end
-
+  def self.clear
+    @@ships = []
+  end
+  
 end
