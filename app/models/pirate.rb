@@ -8,7 +8,7 @@ class Pirate
     @name = name
     @weight = weight
     @height = height
-    self.save
+    @@all << self
   end
 
 
